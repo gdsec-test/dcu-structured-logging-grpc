@@ -1,0 +1,9 @@
+.idea
+*.pyc
+tests/.coverage
+tests/cover
+*sublime*
+.venv
+.coverage
+.noseids
+coverage.xml

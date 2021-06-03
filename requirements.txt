@@ -1,0 +1,2 @@
+grpc-interceptor==0.13.0
+python-json-logger==2.0.1
