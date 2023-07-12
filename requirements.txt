@@ -1,2 +1,2 @@
 grpc-interceptor==0.15.2
-python-json-logger== 2.0.7
+python-json-logger==2.0.7
