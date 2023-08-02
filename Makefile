@@ -1,8 +1,16 @@
-all: env
+all: init
 
-env:
+init:
 	pip install -r test_requirements.txt
 	pip install -r requirements.txt
+
+.PHONY: unit-test
+unit-test:
+	@echo "----- No unit tests-----"
+
+.PHONY: testcov
+testcov:
+	@echo "----- No tests to run for coverage-----"
 
 .PHONY: flake8
 flake8:
